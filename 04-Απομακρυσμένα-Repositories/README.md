@@ -18,6 +18,17 @@
 ### Αυθεντικοποίηση (Authentication)
 Για να στείλετε κώδικα (push) στο GitHub, πρέπει να αποδείξετε την ταυτότητά σας. Το GitHub απαιτεί **Personal Access Tokens (PAT)** ή **SSH Keys** αντί για τον κωδικό πρόσβασης του λογαριασμού σας.
 
+#### Πώς να δημιουργήσετε ένα Personal Access Token (PAT)
+1. Στο GitHub, πηγαίνετε: **Settings** (πάνω δεξιά στο προφίλ) -> **Developer settings** (τέρμα κάτω αριστερά) -> **Personal access tokens** -> **Tokens (classic)**.
+2. Πατήστε **Generate new token (classic)**.
+3. Δώστε ένα όνομα (π.χ. "My Laptop") και επιλέξτε διάρκεια (Expiration).
+4. Στα **Select scopes**, τσεκάρετε το κουτάκι **repo** (για πλήρη έλεγχο των repositories).
+5. Πατήστε **Generate token**.
+6. **Αντιγράψτε το token!** Δεν θα μπορέσετε να το δείτε ξανά.
+7. Όταν το Git στο τερματικό σας ζητήσει **Password**, κάντε επικόλληση αυτό το token.
+
+> **Tip:** Σε πολλά τερματικά, η επικόλληση κωδικού δεν φαίνεται στην οθόνη για λόγους ασφαλείας. Απλά πατήστε Enter μετά την επικόλληση.
+
 ## Πρακτική Εφαρμογή
 
 ### Προβολή Remote Repositories
@@ -166,6 +177,12 @@ git pull origin main
 # Μετά κάντε push
 git push origin main
 ```
+
+### Authentication Error (Password removed)
+Αν δείτε το μήνυμα:
+`remote: Support for password authentication was removed... Please use a personal access token instead.`
+
+**Λύση:** Σημαίνει ότι βάλατε τον κωδικό του GitHub σας. Πρέπει να βάλετε το **Personal Access Token (PAT)** όταν σας ζητηθεί το `Password`.
 
 ### Rejected Push
 ```bash
