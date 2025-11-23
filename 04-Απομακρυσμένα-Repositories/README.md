@@ -15,6 +15,9 @@
 - **Git**: Το σύστημα ελέγχου εκδόσεων (τοπικό εργαλείο)
 - **GitHub**: Μια πλατφόρμα φιλοξενίας για Git repositories (διαδικτυακή υπηρεσία)
 
+### Αυθεντικοποίηση (Authentication)
+Για να στείλετε κώδικα (push) στο GitHub, πρέπει να αποδείξετε την ταυτότητά σας. Το GitHub απαιτεί **Personal Access Tokens (PAT)** ή **SSH Keys** αντί για τον κωδικό πρόσβασης του λογαριασμού σας.
+
 ## Πρακτική Εφαρμογή
 
 ### Προβολή Remote Repositories
@@ -68,8 +71,20 @@ git push --all origin
 # Push με force (προσοχή!)
 git push --force origin main
 
-# Ορισμός upstream branch
+# Ορισμός upstream branch (Tracking)
+# Το -u (ή --set-upstream) συνδέει το τοπικό branch με το remote
+# ώστε μελλοντικά να αρκεί σκέτο 'git push' ή 'git pull'
 git push -u origin main
+```
+
+### Διαχείριση Remote Branches
+
+```bash
+# Διαγραφή remote branch
+git push origin --delete feature-branch
+
+# Καθαρισμός τοπικών αναφορών σε διεγραμμένα remote branches
+git fetch --prune
 ```
 
 ### Λήψη Αλλαγών (Pull)
