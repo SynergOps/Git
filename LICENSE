@@ -1,15 +1,61 @@
-Creative Commons Attribution-ShareAlike 4.0 International
+Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International
+
+Αυτή είναι μια απλοποιημένη περίληψη (και όχι υποκατάστατο) της άδειας.
+
+ΑΠΟΠΟΙΗΣΗ ΕΥΘΥΝΗΣ: Το παρόν δεν αποτελεί νομικό έγγραφο. Είναι μια απλοποιημένη 
+περίληψη της άδειας CC BY-NC-SA 4.0 International. Για το πλήρες νομικό κείμενο, δείτε:
+https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode
+
+Είστε ελεύθεροι να:
+- Μοιραστείτε — αντιγράψετε και διανείμετε το υλικό σε οποιοδήποτε μέσο ή 
+  μορφή
+- Προσαρμόσετε — αναμίξετε, μετασχηματίστε και δημιουργήστε βάσει του 
+  υλικού
+
+Υπό τους ακόλουθους όρους:
+- Αναφορά — Πρέπει να αναφέρετε κατάλληλα την πηγή, να παρέχετε σύνδεσμο 
+  στην άδεια και να αναφέρετε αν έγιναν αλλαγές.
+  
+  *Παράδειγμα:* "Αυτός ο οδηγός βασίζεται στο [Git Tutorial](https://github.com/SynergOps/Git) του Σαλί Εμίν, διαθέσιμο υπό άδεια CC BY-NC-SA 4.0."
+
+- Μη Εμπορική Χρήση — Δεν μπορείτε να χρησιμοποιήσετε το υλικό για εμπορικούς σκοπούς.
+  
+  *Επιτρέπεται:* Χρήση σε δωρεάν σεμινάρια, προσωπική μελέτη, ακαδημαϊκή διδασκαλία.
+  *ΔΕΝ επιτρέπεται:* Πώληση βιβλίου, ενσωμάτωση σε εμπορική πλατφόρμα εκπαίδευσης, χρήση σε πληρωμένα webinars.
+  
+- Κοινή χρήση — Αν αναμίξετε, μετασχηματίσετε ή δημιουργήσετε βάσει του 
+  υλικού, πρέπει να διανείμετε τις συνεισφορές σας υπό την ίδια άδεια.
+  
+  *Παράδειγμα:* Αν προσθέσετε νέα κεφάλαια ή ασκήσεις, το νέο υλικό πρέπει να έχει την ίδια άδεια CC BY-NC-SA 4.0.
+
+- Χωρίς πρόσθετους περιορισμούς — Δεν μπορείτε να εφαρμόσετε νομικούς όρους ή τεχνολογικά 
+  μέτρα που να περιορίζουν νομικά άλλους από το να κάνουν οτιδήποτε επιτρέπει η άδεια.
+
+ΣΗΜΕΙΩΣΕΙΣ:
+Δεν χρειάζεται να συμμορφώνεστε με την άδεια για στοιχεία του υλικού που βρίσκονται 
+στο δημόσιο τομέα ή όπου η χρήση σας επιτρέπεται από εξαίρεση ή περιορισμό.
+
+Δεν παρέχονται εγγυήσεις. Η άδεια μπορεί να μην σας δίνει όλες τις άδειες που 
+είναι απαραίτητες για την προβλεπόμενη χρήση σας. Για παράδειγμα, άλλα δικαιώματα 
+όπως δημοσιότητας, ιδιωτικής ζωής ή ηθικά δικαιώματα μπορεί να περιορίσουν τον 
+τρόπο που χρησιμοποιείτε το υλικό.
+
+Για περισσότερες πληροφορίες, επισκεφθείτε:
+https://creativecommons.org/licenses/by-nc-sa/4.0/deed.el
+
+---
+
+Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International
 
 This is a human-readable summary of (and not a substitute for) the license.
 
 DISCLAIMER: This is not a legal document. It is a human-readable summary of 
-the CC BY-SA 4.0 International license. For the full legal text, see:
-https://creativecommons.org/licenses/by-sa/4.0/legalcode
+the CC BY-NC-SA 4.0 International license. For the full legal text, see:
+https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode
 
 You are free to:
 - Share — copy and redistribute the material in any medium or format
-- Adapt — remix, transform, and build upon the material for any purpose, 
-  even commercially
+- Adapt — remix, transform, and build upon the material
 
 The licensor cannot revoke these freedoms as long as you follow the license terms.
 
@@ -18,8 +64,17 @@ Under the following terms:
   and indicate if changes were made. You may do so in any reasonable manner, but 
   not in any way that suggests the licensor endorses you or your use.
   
+  *Example:* "This guide is based on [Git Tutorial](https://github.com/SynergOps/Git) by Sali Emin, available under CC BY-NC-SA 4.0 license."
+
+- NonCommercial — You may not use the material for commercial purposes.
+
+  *Allowed:* Use in free workshops, personal study, academic teaching.
+  *NOT allowed:* Selling as a book, incorporating into commercial training platform, use in paid webinars.
+
 - ShareAlike — If you remix, transform, or build upon the material, you must 
   distribute your contributions under the same license as the original.
+  
+  *Example:* If you add new chapters or exercises, the new material must have the same CC BY-NC-SA 4.0 license.
 
 - No additional restrictions — You may not apply legal terms or technological 
   measures that legally restrict others from doing anything the license permits.
@@ -33,28 +88,6 @@ necessary for your intended use. For example, other rights such as publicity,
 privacy, or moral rights may limit how you use the material.
 
 For more information:
-- Full Legal Text: https://creativecommons.org/licenses/by-sa/4.0/legalcode
-- License Deed: https://creativecommons.org/licenses/by-sa/4.0/
-- Frequently Asked Questions: https://wiki.creativecommons.org/wiki/BY-SA-4.0
-
----
-
-ΕΛΛΗΝΙΚΗ ΜΕΤΑΦΡΑΣΗ (Σύνοψη)
-
-Είστε ελεύθεροι να:
-- Μοιραστείτε — αντιγράψετε και διανείμετε το υλικό σε οποιοδήποτε μέσο ή 
-  μορφή
-- Προσαρμόσετε — αναμίξετε, μετασχηματίστε και δημιουργήστε βάσει του 
-  υλικού για οποιοδήποτε σκοπό, ακόμη και εμπορικά
-
-Υπό τους ακόλουθους όρους:
-- Αναφορά — Πρέπει να αναφέρετε κατάλληλα την πηγή, να παρέχετε σύνδεσμο 
-  στην άδεια και να αναφέρετε αν έγιναν αλλαγές.
-  
-  *Παράδειγμα:* "Αυτός ο οδηγός βασίζεται στο [Git Tutorial](https://github.com/SynergOps/Git) του Σαλί Εμίν, διαθέσιμο υπό άδεια CC BY-SA 4.0."
-  
-- Κοινή χρήση — Αν αναμίξετε, μετασχηματίσετε ή δημιουργήσετε βάσει του 
-  υλικού, πρέπει να διανείμετε τις συνεισφορές σας υπό την ίδια άδεια.
-
-Για περισσότερες πληροφορίες, επισκεφθείτε:
-https://creativecommons.org/licenses/by-sa/4.0/deed.el
+- Full Legal Text: https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode
+- License Deed: https://creativecommons.org/licenses/by-nc-sa/4.0/
+- Frequently Asked Questions: https://wiki.creativecommons.org/wiki/BY-NC-SA-4.0
