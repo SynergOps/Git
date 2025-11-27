@@ -31,6 +31,9 @@
 ### Git Reset
 Σκοπός του Reset είναι να μετακινεί το HEAD σε ένα διαφορετικό commit. Μπορεί επίσης να αλλάζει και τόσο το staging area όσο και το working directory. Έχουμε τις επιλογές `hard`, `soft` και `mixed`: Το soft reset μετακινεί το HEAD σε ένα άλλο commit χωρίς να αλλάξουν τα staging area (δηλαδή το index) και το working directory. Το hard reset μετακινεί το HEAD, επαναφέρει το index και το working directory (αναιρεί δηλαδή όλες τις τοπικές αλλαγές που δεν υπάρχουν στο νέο commit). Το mixed reset μετακινεί το HEAD, επαναφέρει το index αλλά δεν αλλάζει το working directory (παραμένουν δηλαδή οι τοπικές αλλαγές μας στον δίσκο). 
 
+### Git Revert
+Το revert δημιουργεί ένα νέο commit το οποίο αναιρεί τις αλλαγές ενός προηγούμενου commit, χωρίς όμως να αλλάζει το ιστορικό του branch. Εν αντιθέσει με το reset, εφαρμόζει μια αντίθετη τροποποίηση που ακυρώνει το επιλεγμένο commit. Επειδή δεν ξαναγράφεται το history, το κάνει ιδανική επιλογή για απομακρυσμένα repositories και shared repositories στα οποία έχουν ήδη γίνει push αλλαγές, χωρίς να δημιουργούνται conflicts. Με βάση τα παραπάνω λοιπόν, μπορεί να χρησιμοποιηθεί για ανάκληση κάποιου λανθασμένου ή ανεπιθύμητου commit που έχει ήδη γίνει push αλλά και για τήρηση καθαρού ιστορικού χωρίς επανεγγραφές (rewrites).  
+
 ### Reset vs Revert vs Checkout
 - **Reset**: Μετακινεί το HEAD και (προαιρετικά) αλλάζει το staging/working directory και το history. Ενδείκνυται για τοπικά branches.
 - **Revert**: Δημιουργεί νέο commit που αναιρεί προηγούμενο commit. Ενδείκνυται για shared branches.
