@@ -43,7 +43,7 @@ brew install git
 
 **Linux (Ubuntu/Debian):**
 ```bash
-sudo apt-get install git
+sudo apt install git
 ```
 
 ### Αρχική Ρύθμιση
